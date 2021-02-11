@@ -1,1 +1,2 @@
 # IoT_IDE
+The IDE consists of front-end, back-end, and the local working directory. The front-end provides the UI and send json to back-end endpoints to use the functionalities. The backend end keeps listen to tweets and store all information from tweets in memory for front-end to present and other future uses. When running an app, the backend sends json files to corresponding Things and call services in specific order. Backend also handles interactions with file system such as saving files to and reading files from local. 
